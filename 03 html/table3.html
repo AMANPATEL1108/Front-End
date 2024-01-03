@@ -8,6 +8,13 @@
 <body>
 
     <table>
+        <colgroup>
+
+            <col span="1" style="background-color: rgb(10, 212, 84);">
+            <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: aqua;">
+    
+        </colgroup>
         <tr>
             <td colspan="2">abcd</td>
             <td>abcd</td>
@@ -19,7 +26,7 @@
             <td>abcd</td>
         </tr>
         <tr>
-            <td rowspan="2" colspan="2">abcd</td>
+            <td id="new" rowspan="2" colspan="2">abcd</td>
             <td>abcd</td>
             <td>abcd</td>
         </tr>
@@ -38,6 +45,10 @@
         border: 1px solid black;
        border-collapse: collapse;
        text-align: center;
+    }
+    #new{
+        color: blue;
+        background: #a43e3e;
     }
 </style>
 </html>
