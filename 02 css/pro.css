@@ -1,0 +1,20 @@
+.box{
+height: 100px;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+overflow: scroll;
+}
+
+.box2{
+    margin: 10px;
+    min-height: 10px;
+    width: 50px;
+    border: 1px solid black;
+}
+.box3{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    overflow:  visible;/* hidden scroll auto */
+}
