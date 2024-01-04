@@ -1,0 +1,17 @@
+a {
+    color: chartreuse;
+    background: beige;
+}
+div {
+    background: rgb(70, 18, 29);
+}
+html {
+    text-align: center;
+}
+#google{
+    color: black;
+}
+#call{
+    background-color: blue;
+    color: brown;
+}
