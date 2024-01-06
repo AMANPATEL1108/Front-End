@@ -6,14 +6,17 @@ body {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
     min-height: 100vh;
+    border: 1px solid black;
+   
 }
 
 header, footer {
-    background-color: #333;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 10px;
     text-align: center;
     grid-column: span 1;
+    border: 1px solid black;
 }
 
 .container {
@@ -23,10 +26,12 @@ header, footer {
 }
 
 .sidebar {
+    border: 1px solid black;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
 .content {
+    border: 1px solid black;
     padding: 20px;
 }
