@@ -9,7 +9,7 @@ let rectangle={
     breadth:2,
     
     draw:function () {
-        console.log('drawing rectanglr');
+        console.log('drawing rectangl');
     }
 };
 
@@ -21,7 +21,7 @@ function createRectangle(len,bre) {
         breadth:bre,
         
         draw:function () {
-            console.log('drawing rectanglr');
+            console.log('drawing rectangl');
         }
     };
    
