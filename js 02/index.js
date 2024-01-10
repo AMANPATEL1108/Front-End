@@ -34,5 +34,5 @@ let rectangleobj3=createRectangle(7,9);
 
 
 // rectangle.length;
-// rrctangle.breadth;
+// rectangle.breadth;
 // rectangle.draw();
