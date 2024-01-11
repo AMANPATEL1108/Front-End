@@ -19,7 +19,6 @@ function createRectangle(len,bre) {
     return ractangle={
         length:len,
         breadth:bre,
-        
         draw:function () {
             console.log('drawing rectangl');
         }
