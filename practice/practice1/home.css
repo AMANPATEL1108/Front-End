@@ -5,19 +5,24 @@ body {
 }
 
 header {
+    text-align: justify;
     background-color: #90547d;
     border: 1px solid black;
     color: #fff;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    z-index: 1001; /* Set a higher z-index for the header */
 }
 
 .logo-container {
     margin-left: 30px; /* Adjust the margin as needed */
 }
-
 
 .logo-container img {
     width: 120px; /* Adjust the width of your logo as needed */
@@ -28,10 +33,14 @@ h1 {
     flex-grow: 1;
 }
 
+img {
+    height: 130px;
+}
+
 nav {
     width: 200px;
     height: 100%;
-    margin-top: 99px;
+    margin-top: 107px; /* Remove the margin-top */
     background-color: #90547d;
     border: 1px solid black;
     position: fixed;
@@ -39,6 +48,7 @@ nav {
     left: 0;
     overflow-y: auto;
     padding-top: 20px;
+    z-index: 1000; /* Set a lower z-index for the sidebar */
 }
 
 nav a {
@@ -53,7 +63,8 @@ nav a {
 }
 
 main {
-    margin-left: 220px;
+    margin-top: 15%; /* Adjust the margin-top to accommodate the fixed header */
+    margin-left: 220px; /* Adjust the margin-left to accommodate the fixed sidebar */
     padding: 20px;
 }
 
@@ -66,6 +77,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 5%; /* Adjust as needed */
+    z-index: 1001; /* Set a higher z-index for the footer */
 }
 
 .content {
@@ -74,7 +87,7 @@ footer {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
 
@@ -84,3 +97,15 @@ footer {
     object-fit: cover;
 }
 
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'DM Sans';
+    color: black;
+}
+
+p {
+    font-family: cursive;
+    font-weight: 700;
+    font-style: oblique;
+}
