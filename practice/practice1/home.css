@@ -46,7 +46,7 @@ nav {
 }
 
 nav a {
-    display: block; 
+    display: block;
     border: 1px solid black;
     padding: 15px;
     margin: 10px;
@@ -54,6 +54,18 @@ nav a {
     color: #eeeeee;
     text-decoration: none;
     cursor: pointer;
+    transition: font-weight 0.3s, transform 0.3s, color 0.3s; /* Add transition for a smoother effect */
+}
+
+nav a:hover {
+    font-weight: bold; /* Make the text bold on hover */
+    transform: scale(1.1); /* Slightly increase the scale for zoom effect */
+    color: #ff6600; /* Change the color on hover */
+}
+
+nav a.selected {
+    background-color: transparent; /* Remove the yellow background color */
+    color: #ff6600; /* Keep the selected text color */
 }
 
 main {
@@ -86,13 +98,15 @@ footer {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s;
+    z-index: 0;
 }
 
 .image-grid img:hover {
-    transform: scale(1.2); /* Increase the scale for zoom effect */
+    transform: scale(1.2);
+    z-index: 1;
 }
 
-/* Reset the zoom on other images when one is hovered */
 .image-grid img:not(:hover) {
     transform: scale(1);
+    z-index: 0;
 }
