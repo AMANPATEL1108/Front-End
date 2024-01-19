@@ -12,7 +12,27 @@ function showContent(contentId) {
 }
 
 function viewImage(imageSrc) {
-    window.open(imageSrc);
+    // Create a modal (popup) container
+    var modalContainer = document.createElement('div');
+    modalContainer.className = 'modal-container';
+
+    // Create an image element within the modal
+    var modalImage = document.createElement('img');
+    modalImage.src = imageSrc;
+
+    // Create a close button within the modal
+    var closeButton = document.createElement('button');
+    closeButton.innerText = 'Close';
+    closeButton.onclick = function () {
+        document.body.removeChild(modalContainer);
+    };
+
+    // Append elements to the modal container
+    modalContainer.appendChild(modalImage);
+    modalContainer.appendChild(closeButton);
+
+    // Append the modal container to the body
+    document.body.appendChild(modalContainer);
 }
 
 function downloadImage(imageSrc) {
@@ -24,3 +44,5 @@ function downloadImage(imageSrc) {
     link.click();
     document.body.removeChild(link);
 }
+
+
