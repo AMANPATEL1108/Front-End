@@ -16,7 +16,7 @@ header {
     top: 0;
     width: 100%;
     height: 15%;
-    z-index: 1001; /* Set a higher z-index for the header */
+    z-index: 1001;
 }
 
 .logo-container img {
@@ -34,7 +34,7 @@ h1 {
 nav {
     width: 200px;
     height: 100%;
-    margin-top: 107px; /* Remove the margin-top */
+    margin-top: 107px;
     background-color: #90547d;
     border: 1px solid black;
     position: fixed;
@@ -42,7 +42,7 @@ nav {
     left: 0;
     overflow-y: auto;
     padding-top: 20px;
-    z-index: 1000; /* Set a lower z-index for the sidebar */
+    z-index: 1000;
 }
 
 nav a {
@@ -54,23 +54,23 @@ nav a {
     color: #eeeeee;
     text-decoration: none;
     cursor: pointer;
-    transition: font-weight 0.3s, transform 0.3s, color 0.3s; /* Add transition for a smoother effect */
+    transition: font-weight 0.3s, transform 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    font-weight: bold; /* Make the text bold on hover */
-    transform: scale(1.1); /* Slightly increase the scale for zoom effect */
-    color: #ff6600; /* Change the color on hover */
+    font-weight: bold;
+    transform: scale(1.1);
+    color: #ff6600;
 }
 
 nav a.selected {
-    background-color: transparent; /* Remove the yellow background color */
-    color: #ff6600; /* Keep the selected text color */
+    background-color: transparent;
+    color: #ff6600;
 }
 
 main {
-    margin-top: 10%; /* Adjust the margin-top to accommodate the fixed header */
-    margin-left: 220px; /* Adjust the margin-left to accommodate the fixed sidebar */
+    margin-top: 10%;
+    margin-left: 220px;
     padding: 20px;
 }
 
@@ -83,14 +83,60 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 5%; /* Adjust as needed */
-    z-index: 1001; /* Set a higher z-index for the footer */
+    height: 5%;
+    z-index: 1001;
 }
 
 .image-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.image-container:hover .image-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-overlay button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Apply the specified button design to View and Download buttons */
+.image-overlay .view-btn,
+.image-overlay .download-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(248, 159, 4);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.image-overlay .view-btn:hover,
+.image-overlay .download-btn:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    color: #ff6600;
 }
 
 .image-grid img {
