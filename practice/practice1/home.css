@@ -46,6 +46,7 @@ nav {
 }
 
 nav a {
+    border-radius: 25px;
     display: block;
     border: 1px solid black;
     padding: 15px;
@@ -234,4 +235,9 @@ footer {
 }
 
 /* ... (unchanged) ... */
- 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+    
