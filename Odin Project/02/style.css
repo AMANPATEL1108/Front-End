@@ -12,6 +12,7 @@
   padding: 10px;
   height: 535px;
   max-width: 15%;
+  background-color: beige;
 }
 .main {
   text-align: center;
@@ -28,8 +29,9 @@
   color: black;
   border: 1px solid black;
   padding: 10px;
-  height: 70px;
+  height: 90px;
   max-width: 100%;
+  background-color: rgb(191, 123, 33);
 }
 
 .header {
@@ -39,12 +41,13 @@
   padding: 10px;
   height: 60px;
   max-width: 100%;
+  background-color: aquamarine;
 }
 
 .headerbutton button {
   padding: 10px 20px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: rgb(168, 203, 191);
   margin-left: 7px;
   margin-top: 20px;
   align-items: center;
@@ -72,4 +75,5 @@
   height: 40px;
   width: 200px;
   border-radius: 10%;
+  background-color: rgb(168, 203, 191);
 }
