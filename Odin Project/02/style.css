@@ -42,6 +42,7 @@
   height: 60px;
   max-width: 100%;
   background-color: aquamarine;
+  display: flex;
 }
 
 .headerbutton button {
@@ -54,7 +55,7 @@
   border-radius: 10%;
 }
 .headerbutton {
-  padding-left: 78%;
+  padding-left: 65%;
   position: relative;
   display: flex;
   align-items: center;
@@ -76,4 +77,12 @@
   width: 200px;
   border-radius: 10%;
   background-color: rgb(168, 203, 191);
+}
+
+.imageclass {
+    height: 100px;
+    width: 100px;
+    padding-left: 70px;
+    background-color: transparent;
+    margin-top: -22px;
 }
