@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function () {
+  showProfile();
+});
 function showProfile() {
   const mainContent = document.getElementById("main-content");
   const profileForm = document.getElementById("profile-form");
@@ -5,7 +8,6 @@ function showProfile() {
     ".main > div:not(#profile-form)"
   );
 
-  // Hide other forms, show profile form
   otherForms.forEach((form) => {
     form.style.display = "none";
   });
@@ -17,7 +19,6 @@ function showEdit() {
   const editForm = document.getElementById("edit-form");
   const otherForms = document.querySelectorAll(".main > div:not(#edit-form)");
 
-  // Hide other forms, show edit form
   otherForms.forEach((form) => {
     form.style.display = "none";
   });
@@ -29,7 +30,6 @@ function showChange() {
   const changeForm = document.getElementById("change-form");
   const otherForms = document.querySelectorAll(".main > div:not(#change-form)");
 
-  // Hide other forms, show change form
   otherForms.forEach((form) => {
     form.style.display = "none";
   });
@@ -43,7 +43,6 @@ function showMore() {
     ".main > div:not(#more-content)"
   );
 
-  // Hide other forms, show more content
   otherForms.forEach((form) => {
     form.style.display = "none";
   });
