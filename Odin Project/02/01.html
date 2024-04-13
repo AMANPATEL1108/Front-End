@@ -25,9 +25,9 @@
           <button class="toggle-btn" onclick="showProfile()">Profile</button
           ><br />
           <button class="toggle-btn" onclick="showEdit()">Edit</button><br />
-          <button class="toggle-btn" onclick="showChange()">Change</button
+          <button class="toggle-btn" onclick="showChange()">Delete</button
           ><br />
-          <button class="toggle-btn" onclick="showMore()">More</button><br />
+          <button class="toggle-btn" onclick="showMore()">Search</button><br />
         </div>
       </div>
 
@@ -36,24 +36,36 @@
           <div class="pagehome"><h2 class="profilee">Profile</h2></div>
           <div class="data">
             <div class="hhh">
-              <div class="text">
-                Name: <input type="text" id="fname" name="fname" />
+              <div>
+                <div class="text" id="trt">
+                  Name:
+                  <div class="name">AMAN</div>
+                </div>
               </div>
-              <div class="text">
-                Email: <input type="text" id="fname" name="fname" />
+              <div>
+                <div class="text" id="trt">
+                  Email:
+                  <div class="name">aman@gmail.com</div>
+                </div>
               </div>
-              <div class="text">
-                Addres: <input type="text" id="fname" name="fname" />
+              <div>
+                <div class="text" id="trt">
+                  Addres:
+                  <div class="name">Bayad</div>
+                </div>
               </div>
-              <div class="text">
-                Mob no: <input type="text" id="fname" name="fname" />
+              <div>
+                <div class="text" id="trt">
+                  Mob No:
+                  <div class="name">+9312345678</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div id="edit-form" style="display: none">
-          <div class="pageedit"><h2 class="profilee">edit</h2></div>
+          <div class="pageedit"><h2 class="profilee">Edit</h2></div>
           <div class="dataedit">
             <div class="jjj">
               <div class="text01">
@@ -66,7 +78,7 @@
                 Addres: <input type="text" id="fname" name="fname" />
               </div>
               <div class="text">
-                Mob no: <input type="text" id="fname" name="fname" />
+                Mob No: <input type="text" id="fname" name="fname" />
               </div>
               <div class="editbutton">
                 <button class="editbutton">update data</button>
@@ -76,11 +88,67 @@
         </div>
 
         <div id="change-form" style="display: none">
-          <h2>This is Change Password Page.</h2>
+          <div class="pageedit"><h2 class="profilee">Delete</h2></div>
+          <div class="dataedit">
+            <div class="ppp">
+              <div class="text01">
+                Name: <input type="text" id="fname" name="fname" />
+              </div>
+              <div class="text">
+                Email: <input type="text" id="fname" name="fname" />
+              </div>
+
+              <div class="editbutton">
+                <button class="editbutton">Delete data</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div id="more-content" style="display: none">
-          <h2>This is More Options Page</h2>
+          <div class="pageedit"><h2 class="profilee">Search</h2></div>
+          <div class="searchedit">
+            <div class="aaa">
+              <div class="text01">
+                Name: <input type="text" id="fname" name="fname" />
+              </div>
+              <div class="text">
+                Email: <input type="text" id="fname" name="fname" />
+              </div>
+
+              <div class="editbutton">
+                <button class="editbutton">Search data</button>
+              </div>
+            </div>
+          </div>
+          <div class="searchdata">
+            <div class="hhh">
+              <div>
+                <div class="text" id="trt">
+                  Name:
+                  <div class="name">AMAN</div>
+                </div>
+              </div>
+              <div>
+                <div class="text" id="trt">
+                  Email:
+                  <div class="name">aman@gmail.com</div>
+                </div>
+              </div>
+              <div>
+                <div class="text" id="trt">
+                  Addres:
+                  <div class="name">Bayad</div>
+                </div>
+              </div>
+              <div>
+                <div class="text" id="trt">
+                  Mob No:
+                  <div class="name">+9312345678</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
