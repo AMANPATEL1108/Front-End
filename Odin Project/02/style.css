@@ -21,6 +21,7 @@
   border: 1px solid black;
   padding: 10px;
   height: 487px;
+  overflow: auto;
   max-width: 85%;
 }
 .footer {
@@ -150,4 +151,84 @@
 .web {
   font-size: 35px;
   padding-top: 5%;
+}
+
+.toggle-btn {
+  overflow: auto;
+}
+.data {
+  margin-left: 0px;
+  margin-right: 22%;
+  background-color: lightskyblue;
+  padding-left: 0;
+  margin-left: 2%;
+  padding-left: 5%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 90%;
+  padding-top: 0%;
+}
+.text {
+  margin-left: -30%;
+  padding-top: 0%;
+  font-size: 301%;
+  margin-bottom: 2%;
+}
+.pagehome {
+  background-color: aqua;
+  height: 50px;
+  margin-top: -2%;
+}
+.profilee {
+  text-align: center;
+  padding-top: 1%;
+  text-shadow: 2px;
+}
+.hhh {
+  background-color: #d7d713;
+  border: solid;
+  width: 1000px;
+}
+#fname {
+  padding-top: 1%;
+  width: 35%;
+  height: 30px;
+  padding-left: 2%;
+}
+
+.pageedit {
+  background-color: rgb(17, 160, 29);
+  height: 50px;
+  margin-top: -2%;
+}
+.jjj {
+  background-color: #0a15aa;
+  border: solid;
+  width: 1000px;
+}
+.text01 {
+  margin-left: -30%;
+  padding-top: 0%;
+  font-size: 301%;
+  margin-bottom: 2%;
+}
+.dataedit {
+  margin-left: 0px;
+  margin-right: 22%;
+  background-color: lightskyblue;
+  padding-left: 0;
+  margin-left: 2%;
+  padding-left: 1%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 90%;
+  padding-top: 0%;
+}
+.editbutton {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 0%;
+  width: 50%;
+  height: 45px;
+  margin-left: 15%;
 }
