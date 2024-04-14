@@ -1,0 +1,116 @@
+body {
+  height: 1080;
+  width: 1920;
+  background-color: yellow;
+  scroll-behavior: none;
+}
+
+.header {
+  border: 1px solid rgb(159, 25, 25);
+
+  margin-top: -0.4%;
+  margin-left: -0.6%;
+  height: 60px;
+  margin-right: -0.6%;
+}
+.slidebar {
+  height: 560px;
+  border: 1px solid rgb(159, 25, 25);
+  margin-left: -0.5%;
+  width: 200px;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 7px;
+}
+.footer {
+  border: 1px solid rgb(159, 25, 25);
+
+  margin-left: -0.5%;
+  height: 60px;
+  margin-right: -0.5%;
+  text-align: center;
+  font-size: 50px;
+  max-height: fit-content;
+}
+.headboximage {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: 3px;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#imageheaderlogo {
+  width: 100px;
+  padding-left: 60px;
+}
+
+.headboxlocation {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: -50px;
+  margin-left: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.headboxsearch {
+  height: fit-content;
+  width: 600px;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: -50px;
+  margin-left: 320px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.headboxaccount {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: -50px;
+  margin-left: 970px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.headboxorder {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: -50px;
+  margin-left: 1130px;
+  padding: 15px 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.headboxcart {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: -50px;
+  margin-left: 1270px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.headboxhelp {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid rgb(159, 25, 25);
+  margin-top: -50px;
+  margin-left: 1410px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
