@@ -25,9 +25,12 @@ body {
 }
 
 .main {
-  height: 550px;
+  position: relative;
+  min-height: 550px;
   background-color: aqua;
   background-size: cover;
+  overflow: auto;
+  /* margin-bottom: 15px; */
 }
 .footer {
   text-align: center;
