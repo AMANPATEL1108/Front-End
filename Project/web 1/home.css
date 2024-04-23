@@ -1,0 +1,59 @@
+* {
+  height: auto;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  height: 70px;
+  background-color: rgb(176, 207, 219);
+  box-shadow: 1px 1px;
+}
+
+.logoin img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin: 5px 0 5px 40px;
+  top: 5px;
+}
+.design {
+  margin: 25px 0 5px 100px;
+  font-size: large;
+}
+.btn {
+  position: absolute;
+  margin: 25px 0 5px 65%;
+}
+a {
+  font-size: larger;
+  text-decoration: none;
+  border: solid black 1px;
+  text-align: center;
+  margin: 0 30px 0 0;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10%;
+}
+
+.maincontent {
+  display: flex;
+  position: relative;
+  min-height: 600px;
+  width: 100%;
+  background-color: #95afd7;
+}
+
+.maincontent .que {
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+.que {
+  height: fit-content;
+  width: fit-content;
+  margin: 50px 30% 0 10%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
