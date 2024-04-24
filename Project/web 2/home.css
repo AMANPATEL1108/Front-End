@@ -1,0 +1,107 @@
+* {
+  height: auto;
+  width: auto;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  height: 80px;
+  width: auto;
+  border: solid black 1px;
+}
+.logo img {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  margin-left: 70px;
+}
+
+.logo a {
+  position: absolute;
+  margin-top: auto;
+  margin-left: 170px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: x-large;
+}
+.btn {
+  position: absolute;
+  left: 30%;
+  margin-top: 20px;
+  border: solid black 1px;
+  font-size: 30px;
+}
+a {
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.login {
+  position: absolute;
+  left: 88%;
+  margin-top: 20px;
+  border: solid black 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.con1 {
+  background: #a29595;
+  min-height: 1000px;
+  max-height: max-content;
+  border: solid black 1px;
+}
+
+.txt {
+  position: absolute;
+  height: auto;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  padding: 5% 10px 10px 200px;
+}
+.viewcourse {
+  margin-top: 10%;
+}
+
+.con1 {
+  display: flex;
+  position: relative;
+}
+.conimg {
+  position: absolute;
+  right: 35%;
+  background-color: #c91717;
+  height: 400px;
+  width: 300px;
+  margin-top: 60px;
+}
+.innertxt {
+  height: 500px;
+  border: solid black 1px;
+  width: 40%;
+}
+h4 {
+  padding: 10px;
+  justify-content: first baseline;
+}
+
+h1 {
+  padding: 10px;
+  justify-content: first baseline;
+}
+h5 {
+  padding: 10px;
+  justify-content: first baseline;
+}
+.viewcourse {
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.viewcourse a {
+  padding: 10px;
+}
