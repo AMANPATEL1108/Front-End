@@ -36,7 +36,7 @@ h3 {
 }
 
 hr {
-  border-color: black;
+  border: solid #8e797c 2px;
   margin-left: 14%;
   margin-right: 11%;
 }
