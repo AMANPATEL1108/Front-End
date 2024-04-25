@@ -29,6 +29,7 @@
   text-decoration: none;
 }
 .btn {
+  display: flex;
   position: absolute;
   left: 30%;
   margin-top: 20px;
@@ -141,4 +142,23 @@ h5 {
   font-size: x-large;
   border-radius: 10%;
   margin-bottom: 10px;
+}
+
+.login:hover {
+  background-color: rgb(187, 153, 153);
+}
+
+.btn div:hover {
+  transform: scale(1.1);
+}
+
+.conimg:hover {
+  transform: scale(1.4);
+}
+
+.innertxt .viewcourse:hover {
+  transform: scale(1.1);
+}
+.con2 .error:hover {
+  transform: scale(1.1);
 }
