@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: repeat(5, 20%);
+  background-color: #2196f3;
+  row-gap: 10px;
+  grid-template-areas:
+    "hd hd hd hd hd"
+    "content content  content content sd"
+    "ft ft ft ft ft";
+}
+
+.item1 {
+  height: 4rem;
+  background-color: #f2a2a2;
+  grid-area: hd;
+}
+.item2 {
+  height: 29rem;
+  background-color: #b96d6d;
+  grid-area: sd;
+}
+.item3 {
+  height: 29rem;
+  background-color: #b33d3d;
+  grid-area: content;
+}
+.item4 {
+  height: 10rem;
+  background-color: #ff0000;
+  grid-area: ft;
+}
