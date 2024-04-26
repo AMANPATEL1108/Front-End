@@ -1,0 +1,91 @@
+* {
+  height: auto;
+  width: auto;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+  border: solid black 1px;
+}
+.headebtn {
+  display: flex;
+  margin-left: 85%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.headebtn a {
+  border: solid black 1px;
+  text-decoration: none;
+}
+a {
+  margin-left: 7px;
+}
+a .twelve {
+  display: flex;
+  height: 5px;
+}
+
+.twelve {
+  justify-content: center;
+  height: fit-content;
+  width: 60px;
+  background-color: #fff;
+  display: flex;
+}
+.otherbtn {
+  display: flex;
+}
+
+.vl {
+  position: absolute;
+  border-left: 3px solid rgb(0, 0, 0);
+  height: 40px;
+  margin-top: 3px;
+  margin-left: 84.5%;
+}
+.search {
+  margin-top: 10px;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 400px;
+  margin-left: 57%;
+  border: solid black 1px;
+}
+.dash {
+  position: absolute;
+  display: flex;
+  margin-top: 10px;
+  height: fit-content;
+  margin-left: 16%;
+  font-size: x-large;
+  width: fit-content;
+  border: solid black 1px;
+}
+
+.logo img {
+  margin-top: 2px;
+  position: absolute;
+  display: flex;
+  height: 45px;
+  margin-left: 12%;
+}
+.first {
+  border: solid black 1px;
+  position: absolute;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  width: 25px;
+  margin-left: 6%;
+  margin-top: 10px;
+  padding: 5px;
+}
