@@ -84,8 +84,108 @@ a .twelve {
   display: flex;
   height: fit-content;
   justify-content: center;
-  width: 25px;
-  margin-left: 6%;
+  width: 36px;
+  margin-left: 5%;
+  margin-top: 5px;
+  padding: 0px;
+  font-size: larger;
+}
+div .first {
+  font-size: xx-large;
+}
+.slidemain {
+  width: 100%;
+
+  flex-direction: column;
+  height: auto;
+  border: solid black 1px;
+}
+.topslide {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.topslide a {
+  margin-left: 33%;
+}
+.slidesearch {
+  margin-top: 20px;
+  padding-left: 10px;
+  border: solid black 1px;
+  width: 200px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;
+  margin-bottom: 2%;
+}
+.repo {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  border: solid black 1px;
+  flex-direction: column;
+}
+
+.repo a {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.showmore {
   margin-top: 10px;
+  margin-left: 30px;
+  font-size: medium;
+}
+.lastslidebarcon {
+  border: solid black 1px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding: 5px;
+}
+
+.Recently {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.repo {
+  height: 520px;
+  width: 50%;
+}
+div .search {
+  align-items: center;
+}
+
+.allcontent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.middle {
+  border: solid black 1px;
+  margin-left: 0%;
+}
+div .left {
+  width: 20%;
+}
+div .repo {
+  width: 100%;
+}
+.middle {
+  border: solid black 1px;
+  width: 834px;
+  background-color: aqua;
+}
+.right {
+  border: solid black 1px;
+  display: flex;
+  position: absolute;
+  width: 25%;
+  right: 0%;
+  height: 618px;
+  background-color: bisque;
 }
