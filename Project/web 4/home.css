@@ -219,7 +219,7 @@ div .repo {
 .zxc {
   border: solid black 1px;
 }
-.profile a{
+.profile a {
   color: black;
 }
 div .profile {
@@ -290,9 +290,9 @@ div .Tickets {
 .Tickets a {
   margin-left: 50px;
   border: solid black 1px;
-color: black;
+  color: black;
   padding-left: 60px;
   font-size: larger;
   padding-right: 60px;
-  font-family: 'Times New Roman', Times, serif bold;
+  font-family: "Times New Roman", Times, serif bold;
 }
