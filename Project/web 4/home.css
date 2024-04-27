@@ -57,7 +57,7 @@ a .twelve {
   display: flex;
   height: 30px;
   width: 400px;
-  margin-left: 57%;
+  margin-left: 52%;
   border: solid black 1px;
 }
 .dash {
@@ -129,6 +129,7 @@ div .first {
 }
 
 .repo a {
+  color: black;
   margin-top: 5px;
   margin-left: 30px;
 }
@@ -186,6 +187,112 @@ div .repo {
   position: absolute;
   width: 25%;
   right: 0%;
-  height: 618px;
+  height: 617.5px;
   background-color: bisque;
+}
+.middleheader {
+  display: flex;
+  border: salmon solid;
+  margin-top: 10px;
+  width: 85%;
+  margin: 15px;
+}
+.home {
+  font-size: larger;
+  margin-left: 0%;
+  border: solid black 1px;
+}
+.fbk {
+  font-size: larger;
+  padding: 5px;
+
+  margin-left: 65%;
+  border: solid black 1px;
+}
+.filter {
+  padding: 5px;
+
+  font-size: larger;
+  border: solid black 1px;
+  margin-left: 10px;
+}
+.zxc {
+  border: solid black 1px;
+}
+.profile a{
+  color: black;
+}
+div .profile {
+  width: 85%;
+  padding: 10px;
+
+  padding: 5px;
+
+  border: solid black 1px;
+  margin-left: 15px;
+}
+
+a.prorepo {
+  font-size: 15px;
+}
+.midcon {
+  padding: 5px;
+
+  display: flex;
+  margin-left: 10px;
+}
+.star {
+  margin-left: 80%;
+  border: solid black 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.paragraph {
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.html {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: fit-content;
+  padding: 5px;
+}
+
+.middlemaincon {
+  margin-top: 20px;
+}
+.posterin {
+  margin: 15px;
+  border: solid black 1px;
+}
+.posterin a {
+  color: black;
+  margin-left: 280px;
+  text-decoration: none;
+}
+.world {
+  padding: 10px;
+}
+.mincon {
+  padding: 7px;
+}
+div .Tickets {
+  margin: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.Tickets a {
+  margin-left: 50px;
+  border: solid black 1px;
+color: black;
+  padding-left: 60px;
+  font-size: larger;
+  padding-right: 60px;
+  font-family: 'Times New Roman', Times, serif bold;
 }
