@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.first {
+  margin-left: 50%;
+  background-color: #3e1717;
+  color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+p {
+  margin: 0; /* to remove default margin */
 }
