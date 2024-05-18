@@ -1,0 +1,27 @@
+<script>
+  const Susan = {
+    firstName: "Susan",
+    lastName: "Steward",
+    age: 14,
+    hobbies: {
+      hobby1: "singing",
+      hobby2: "dancing",
+    },
+  };
+  // const firstName = Susan.firstName;
+  // const age = Susan.age;
+  // const hobby1 = Susan.hobbies.hobby1;
+
+  // console.log(firstName, age, hobby1); //"Susan" 14 "singing"
+  // const {
+  //   firstName,
+  //   age,
+  //   hobbies: { hobby1 },
+  // } = Susan;
+
+  function individualData({ firstName, age, hobbies: { hobby1 } }) {
+    console.log(firstName, age, hobby1); //"Susan" 14 "singing"
+  }
+  individualData(Susan);
+
+</script>
