@@ -1,15 +1,18 @@
 <script>
-  const myPromise = new Promise((resolve, reject) => {
-    // condition
+  const promise = new Promise((resolve, reject) => {
+    let condition = true; // Example condition, you can change this as needed
+
+    if (condition) { // Check if condition is met
+      resolve('Promise is resolved successfully.');
+    } else {
+      reject('Promise is rejected');
+    }
   });
-  // const promise = new Promise((resolve, reject) => {
-  //     let condition;
 
-  //     if(condition is met) {
-  //         resolve('Promise is resolved successfully.');
-  //     } else {
-  //         reject('Promise is rejected');
-  //     }
-  // });
-
+  // Handling the promise
+  promise.then((message) => {
+    console.log(message); // Output if resolved
+  }).catch((error) => {
+    console.error(error); // Output if rejected
+  });
 </script>
