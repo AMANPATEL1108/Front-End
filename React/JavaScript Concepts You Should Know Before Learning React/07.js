@@ -1,0 +1,15 @@
+// for young people
+const youngPeople = users.filter((person) => {
+  return person.age <= 15;
+});
+
+//for senior people
+const seniorPeople = users.filter((person) => person.age >= 50);
+
+console.log(seniorPeople);
+console.log(youngPeople);
+
+
+const Bruno = users.find((person) => person.firstName === "Bruno");
+
+console.log(Bruno);
