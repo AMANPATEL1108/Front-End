@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Color</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .option-container>div {
+            height: 60px;
+            width: 60px;
+            margin: 5px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 id="color-code">rgb(255, 0, 0)</h1>
+    </div>
+    <div>
+        <h4>Score: <span id="score">0</span></h4>
+    </div>
+    <div class="option-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
