@@ -3,8 +3,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="first">
-      <p>Hello world</p>
+    <div class="main">
+      <p class="first">Hello world</p>
+      <p class="second"> this is second div</p>
     </div>
   );
 }

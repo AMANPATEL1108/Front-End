@@ -37,17 +37,27 @@
   }
 } */
 
-.first {
-  margin-left: 50%;
-  background-color: #3e1717;
-  color: rgb(235, 235, 235);
+.main {
   display: flex;
-  justify-content: center;
+  border: solid green 1px;
+  background-color: #ba3434;
   align-items: center;
-  width: fit-content;
-  margin-top: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
-p {
-  margin: 0; /* to remove default margin */
+.first {
+  margin-left: 10%;
+  padding: 10px;
+  background-color: #160202;
+  color: rgb(236, 15, 15);
+  justify-content: center;
+  width: fit-content;
+}
+.second {
+  padding: 10px;
+
+  width: fit-content;
+  background-color: #7521c3;
+  color: aqua;
 }
